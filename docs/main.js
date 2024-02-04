@@ -88,11 +88,25 @@ class AppComponent {
     });
     const driverObj = (0,driver_js__WEBPACK_IMPORTED_MODULE_0__.driver)({
       showProgress: true,
-      steps: [
-      //   { element: '.homecard', popover: { title: 'Welcome. Thanks for coming. Here is a short tour of my profile',side:'top',align:'end' } },
-      //   { element: '.ToggleBtn', popover: { title: 'Here you can switch between dark and light theme' } },
-      //   { element: '.container-fluid', popover: { title: 'My Skill Set',  description:'You can scroll the slider to see more'  } },
-      {
+      steps: [{
+        element: '.homecard',
+        popover: {
+          title: 'Welcome. Thanks for coming. Here is a short tour of my profile',
+          side: 'top',
+          align: 'end'
+        }
+      }, {
+        element: '.ToggleBtn',
+        popover: {
+          title: 'Here you can switch between dark and light theme'
+        }
+      }, {
+        element: '.container-fluid',
+        popover: {
+          title: 'My Skill Set',
+          description: 'You can scroll the slider to see more'
+        }
+      }, {
         element: '.aboutme',
         popover: {
           title: 'My Professional Work Experience'
@@ -280,7 +294,7 @@ class HomepageComponent {
     selectors: [["app-homepage"]],
     decls: 116,
     vars: 0,
-    consts: [[1, "mat-app-background", "content"], ["id", "main", 2, "margin", "1rem"], [1, "row"], [1, "col-lg-12"], ["appearance", "outlined", 1, "homecard"], ["align", "center"], [1, "tw"], [1, "container-fluid"], [1, "row", "flex-row", "flex-nowrap", 2, "overflow-x", "scroll"], ["appearance", "outlined", 2, "border", "1px solid black", "margin-right", "10px"], [2, "height", "150px", "width", "150px !important"], ["width", "150px", "height", "150px", "src", "assets/angular.png"], ["width", "150px", "height", "150px", "src", "assets/nodejs.png"], ["width", "150px", "height", "150px", "src", "assets/html5.png"], ["width", "150px", "height", "150px", "src", "assets/javascript.png"], ["width", "150px", "height", "150px", "src", "assets/ionic.png"], ["width", "150px", "height", "150px", "src", "assets/sql.png"], ["width", "150px", "height", "150px", "src", "assets/amazon.png"], ["width", "150px", "height", "150px", "src", "assets/java.png"], ["width", "150px", "height", "150px", "src", "assets/mongo.png"], ["width", "150px", "height", "150px", "src", "assets/net.png"], [1, "col-lg-9"], ["appearance", "outlined", 1, "aboutme"], [2, "margin", "0px !important"], [1, "row", "no-gutters", 2, "margin-top", "2rem"], ["appearance", "outlined", 1, "projects"], ["href", "https://ieeexplore.ieee.org/document/8537290"], ["href", "https://www.npmjs.com/package/csvtoxlsxconverter"], [1, "col-lg-3"], [1, "col-lg-12", "educational1"], ["appearance", "outlined", 1, "educational"], [2, "margin-bottom", "1rem !important"], [1, "subtext"], [1, "row", "no-gutters", 2, "margin-top", "2rem", "margin-bottom", "2rem"], [1, "col-lg-12", "skills1"], ["appearance", "outlined", 1, "skills"]],
+    consts: [[1, "mat-app-background", "content"], ["id", "main", 2, "margin", "1rem"], [1, "row"], [1, "col-lg-12"], ["appearance", "outlined", 1, "homecard"], ["align", "center"], [1, "tw"], [1, "container-fluid"], [1, "row", "flex-row", "flex-nowrap", 2, "overflow-x", "scroll"], ["appearance", "outlined", 2, "border", "1px solid black", "margin-right", "10px"], [2, "height", "150px", "width", "150px !important"], ["width", "150px", "height", "150px", "src", "assets/angular.png"], ["width", "150px", "height", "150px", "src", "assets/nodejs.png"], ["width", "150px", "height", "150px", "src", "assets/html5.png"], ["width", "150px", "height", "150px", "src", "assets/javascript.png"], ["width", "150px", "height", "150px", "src", "assets/ionic.png"], ["width", "150px", "height", "150px", "src", "assets/sql.png"], ["width", "150px", "height", "150px", "src", "assets/amazon.png"], ["width", "150px", "height", "150px", "src", "assets/java.png"], ["width", "150px", "height", "150px", "src", "assets/mongo.png"], ["width", "150px", "height", "150px", "src", "assets/net.png"], [1, "col-lg-9"], ["appearance", "outlined", 1, "aboutme"], [2, "margin", "0px !important"], [1, "row", "no-gutters", 2, "margin-top", "2rem"], ["appearance", "outlined", 1, "projects"], ["href", "https://ieeexplore.ieee.org/document/8537290"], ["href", "https://www.npmjs.com/package/csvtoxlsxconverter"], [1, "col-lg-3"], [1, "educational1"], ["appearance", "outlined", 1, "educational"], [2, "margin-bottom", "1rem !important"], [1, "subtext"], [1, "row", "no-gutters", 2, "margin-top", "2rem", "margin-bottom", "2rem"], [1, "col-lg-12", "skills1"], ["appearance", "outlined", 1, "skills"]],
     template: function HomepageComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "div", 2)(3, "div", 3)(4, "mat-card", 4)(5, "div", 5)(6, "h1");
