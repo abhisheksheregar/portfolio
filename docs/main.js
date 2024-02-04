@@ -120,7 +120,7 @@ class AppComponent {
       }, {
         element: '.educational1',
         popover: {
-          title: 'My Educational details',
+          title: 'Qualifications',
           side: 'left',
           align: 'start'
         }
